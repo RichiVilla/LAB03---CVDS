@@ -86,3 +86,24 @@ $ mvn test
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/75196522-b3a9-4cd5-a74d-d06a6fef1382)
 
 <h2 style="font-size: 3em;">Ejercicio "Descuento de tarifas":</h2>
+
+<h3 style="font-size: 3em;">Realizar diseño de pruebas</h3>
+
+Esto se encuentra en el PDF adjunto al repositorio.
+
+<h3 style="font-size: 3em;">Implementación de pruebas</h3>
+
+Primero hay que adicionar el archivo aerodescuentos.jar y adicione esta nueva dependencia en el archivo pom.xml de su proyecto.
+
+```{bash}
+$ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvds -DartifactId=aerodescuentos -Dversion=1.0.0 -Dpackaging=jar
+```
+
+![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/91dab4db-fc61-4a03-b4fe-9bd96ed1094d)
+
+Crear el achivo TarifasTest.java en el directorio src/test/java/edu/eci/cvds/tdd/aerodescuentos.
+
+![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/b5613882-4656-4462-aa66-b7396bb802ce)
+
+
+

@@ -15,3 +15,22 @@ registraduría con el cuál registrar personas que tienen la intención de votar
 generar certifiacdos para aquellas personas que registren correctamente su voto.
 
 ***Requerimientos***
+- Solo se registrarán votantes válidos
+- Solo se permite una inscripción por número de documento
+
+***Creación del proyecto***
+
+
+```{bash}
+mvn archetype:generate -Dfilter=maven-archetype-quickstart
+```
+
+Esto nos generará un proyecto de manera interactiva, lo que después nos solicitará:
+
+```{bash}
+Grupo (groupId): edu.eci.cvds
+Artefacto (artifactId): ClasesEquivalencia
+Paquete (package): edu.eci.cvds.tdd
+archetypeArtifactId: maven-archetype-quickstart
+```
+

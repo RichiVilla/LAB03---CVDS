@@ -18,7 +18,7 @@ generar certifiacdos para aquellas personas que registren correctamente su voto.
 - Solo se registrarán votantes válidos
 - Solo se permite una inscripción por número de documento
 
-<h2 style="font-size: 3em;">Creación del proyecto con Maven:</h2>
+<h3 style="font-size: 3em;">Creación del proyecto con Maven:</h3>
 
 ```{bash}
 mvn archetype:generate -Dfilter=maven-archetype-quickstart
@@ -35,7 +35,7 @@ archetypeArtifactId: maven-archetype-quickstart
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/d50ba9bb-6f4b-425d-af1f-54f5d40ba69b)
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/e6c5b0d2-a4d7-4021-a00a-a964b1c65111)
 
-<h2 style="font-size: 3em;">Ajustar configuraciones del proyecto</h2>
+<h3 style="font-size: 3em;">Ajustar configuraciones del proyecto</h3>
 
 Modificamos el POM para que contenga:
 - La dependencia copiada a la sección de dependencias de JUnit.
@@ -49,7 +49,7 @@ Modificamos el POM para que contenga:
 ```
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/f5e5fa3a-7134-4f16-b0e7-b3e32a2551f0)
 
-<h2 style="font-size: 3em;">Compilar y ejecutar</h2>
+<h3 style="font-size: 3em;">Compilar y ejecutar</h3>
  
 Compilamos el proyecto con: 
 
@@ -58,7 +58,7 @@ $ mvn package
 ```
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/516ddd94-fa5f-45ad-8cb7-17cbb1c87dfd)
 
-<h2 style="font-size: 3em;">Esqueleto de la aplicación</h2>
+<h3 style="font-size: 3em;">Esqueleto de la aplicación</h3>
 
 Creamos la carpeta de registry en su directorio correspondiente:
 
@@ -73,7 +73,7 @@ A su vez, en el siguiente directorio creamos una clase de Test:
 
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/797316ca-83c3-4aad-9713-790dfc20971e)
 
-<h2 style="font-size: 3em;">Ejecutar las pruebas</h2>
+<h3 style="font-size: 3em;">Ejecutar las pruebas</h3>
 Creamos las pruebas en la última clase que creamos de Test:
 
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/8c89b754-0f51-49ff-aa87-d3bced8d436c)
@@ -84,3 +84,5 @@ Y luego las ejecutamos para comprobar que estén bien
 $ mvn test
 ```
 ![image](https://github.com/RichiVilla/LAB03---CVDS/assets/124943246/75196522-b3a9-4cd5-a74d-d06a6fef1382)
+
+<h2 style="font-size: 3em;">Ejercicio "Descuento de tarifas":</h2>
